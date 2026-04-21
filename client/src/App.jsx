@@ -11,7 +11,6 @@ function App() {
   return (
     <div style={{
       display: 'grid',
-      // 🚀 The grid handles the sliding animation
       gridTemplateColumns: isSidebarOpen ? '280px 1fr' : '0px 1fr',
       width: '100vw',
       height: '100vh',
